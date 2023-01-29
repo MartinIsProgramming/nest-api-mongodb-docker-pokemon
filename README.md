@@ -20,7 +20,7 @@ npm i @nestjs/cli
 
 4. Clone the `.env.template` and renamed it to `.env`
 
-5. Since no sensitive data is display please copy de same values
+5. Since no sensitive data is display please copy the same values
 
 6. You have to get the DB up and running
 
