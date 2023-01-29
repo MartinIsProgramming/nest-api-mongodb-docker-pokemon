@@ -18,7 +18,11 @@ yarn install
 npm i @nestjs/cli
 ```
 
-4. You have to get the DB up and running
+4. Clone the `.env.template` and renamed it to `.env`
+
+5. Since no sensitive data is display please copy de same values
+
+6. You have to get the DB up and running
 
 ```
 docker-compose up -d
@@ -33,4 +37,13 @@ GET http://localhost:3000/api/v1/seed
 ## Stack
 
 1. Nest
-2. MongoDB
+
+2. MongoDB --> https://www.mongodb.com/
+
+3. TablePlus to manage DB locally --> https://tableplus.com/
+
+4. Joi for validations --> https://www.npmjs.com/package/joi
+
+5. Axios for http request --> https://www.npmjs.com/package/axios (@0.27.2)
+
+> **axios version**: Please notice we are using axios `@0.27.2` since newer versions have a issue with Nest.
