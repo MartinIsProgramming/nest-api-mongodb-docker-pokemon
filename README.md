@@ -24,6 +24,12 @@ npm i @nestjs/cli
 docker-compose up -d
 ```
 
+5. Populate the DB
+
+```
+GET http://localhost:3000/api/v1/seed
+```
+
 ## Stack
 
 1. Nest
